@@ -16,12 +16,3 @@ Thanks
 ### hammingcodes.cpp
 This is the main `.cpp` file which implements all the functions and produces the output. I could have created multiple files like header files and then do
 multi-file compilation, but I did not do so for the sake of simplicity. I might implement it in a future version of the project though.
-
-### data.csv
-This is a `.csv` file which contains the 11-bit data inputs, the 16-bit received data inputs and the correct 16-bit messages after processing. The file `data.xlsx` is
-the Excel version of the same. With this file, I wish to store all the ~2<sup>27</sup> possible combinations of the inputs and outputs. This would require a hell lot
-of processing and optimisations on the current code, and I think I will have to rely a high performance machine for this purpose.
-
-### hammingcodes_script.sh
-This is a `.sh` file which I wrote to execute the `hammingcodes.cpp` function on my local machine. `hammingcodes.exe` is the executable created as a result 
-of the `g++` commands.
